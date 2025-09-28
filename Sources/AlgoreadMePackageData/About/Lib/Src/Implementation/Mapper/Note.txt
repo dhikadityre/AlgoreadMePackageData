@@ -1,0 +1,14 @@
+//
+//  note.swift
+//  AlgoreadMePackageData
+//
+//  Created by @algoreadme on 31/07/25.
+//
+
+CheckBindingStatusQuery → Mapper → CheckBindingStatusRequest → API Call
+
+RequestBody(PostAboutRB) → Mapper → CheckBindingStatusRequest → API Call
+
+
+# Implementation/Request/PostAboutRBReq
+Digunakan untuk mengirim data Request ke Back End (data dapat diinisialisasi dengan opsional) dan conform ke Codable
